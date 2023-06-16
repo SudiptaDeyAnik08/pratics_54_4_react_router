@@ -1,33 +1,22 @@
 import React from 'react'
-import Header from '../Header/Header'
+
 
 import '../Home/Home.css'
+import HomeBody from '../HomeBody.js/HomeBody'
 
-import { EnvelopeOpenIcon, PhoneIcon } from '@heroicons/react/24/solid'
-import { Outlet } from 'react-router-dom'
 
 function Home() {
     return (
-        <div>
-            <div  className='flex justify-between pt-2 pb-3 homeNav'>
-               
-                <div className='flex ms-10 '>
-                    <EnvelopeOpenIcon className='EnvelopeOpenIcon ms-2 me-2'></EnvelopeOpenIcon>
-                    <p>contact@KUTheme.edu</p>
-
-                    <PhoneIcon className='w-5 ms-2'></PhoneIcon>
-                    <p>+1-3435-2356-222</p>
+        <div >
+            <div className='bg_image  '>
+                <div className='child_bg text-white '>
+                    <h3 className='font-medium text-4xl ms-10 mb-10' >The Best Univarsity of The Country</h3>
+                    <h1 className='font-bold text-8xl univarstiy p-4 pt-1 w-4/6 ms-10'>Sudipta Univarsity</h1>
+                    <h2 className='ms-10 take_tour_area font-bold text-lg text-black p-5 bg-white w-40 mt-10'>Take A Tour</h2>
                 </div>
-
-                <div className='flex me-10 '>
-                <p className='me-2'>Alumni</p>
-                <p className='me-2'>Calendar</p>
-                <p className='me-2'>Portal</p>
-                <p className='me-2  bg-green-600 '>Support KU</p>
-                </div>
+               <HomeBody></HomeBody>
             </div>
-            <Header></Header>
-            <Outlet></Outlet>
+          
         </div>
     )
 }

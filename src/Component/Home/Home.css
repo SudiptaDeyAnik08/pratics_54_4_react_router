@@ -1,8 +1,18 @@
-.EnvelopeOpenIcon{
-    height: 25px;
+.bg_image{
+    background-image: url('../../asstes/2a.jpg');
+    background-repeat: no-repeat;
+    background-size:100% auto;
+    height: 650px;
 }
 
-.homeNav{
-    background-color: #192F59;
-    color: #8FA2B8;
+.child_bg{
+    background-image: linear-gradient(to right, rgba(22,38,71,1), rgba(0,0,0,0));
+    height: 650px;
+    padding-top:150px;
+    
+}
+
+.univarstiy{
+    background-color: rgba(22,38,71,0.8) ;
+    
 }
