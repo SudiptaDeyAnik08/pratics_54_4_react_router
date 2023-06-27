@@ -1,3 +1,6 @@
+.home_main_bg{
+    background-color: whitesmoke;
+}
 .bg_image{
     background-image: url('../../asstes/2a.jpg');
     background-repeat: no-repeat;
@@ -9,6 +12,10 @@
     background-image: linear-gradient(to right, rgba(22,38,71,1), rgba(0,0,0,0));
     height: 650px;
     padding-top:150px;
+    
+}
+
+.take_tour_area{
     
 }
 

@@ -18,7 +18,7 @@ function Header() {
          <Link className='ps-4 font-semibold' to="">Academics</Link>
          <Link className='ps-4 font-semibold' to="">Admissions</Link>
          <Link className='ps-4 font-semibold' to="">Courses</Link>
-         <Link className='ps-4 font-semibold' to="">Quiz</Link>
+         <Link className='ps-4 font-semibold' to="/quiz">Quiz</Link>
          <Link className='ps-4 font-semibold' to="">University Life</Link>
          <Link className='ps-4 font-semibold' to="">Search</Link>
         </div>
